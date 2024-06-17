@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment Page</title>
+    <style>
+        nav {
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            z-index: 1000; 
+            font-family: Arial, Helvetica, sans-serif; 
+            font-size: 16px; 
+            background-color: black;
+            opacity: 0.8; 
+            color: white;
+            height: 50px;
+            width: 100%; 
+            display: flex;
+            align-items: center;
+        }
+
+ 
+        ul {
+            list-style: none; 
+            margin: 0; 
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+    
+        ul li {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li a {
+            color: inherit; 
+            text-decoration: none; 
+            padding: 15px 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        ul li a:hover {
+            background-color: rgb(150, 140, 140);
+        }
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    max-width: 1000px;
+    margin: 20px;
+    padding: 20px;
+    margin-top: 1000px;
+}
+
+.gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+
+        }
+.gallery-item img:hover {
+            transition: transform 0.3s ease;
+            transform: scale(1.1);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="form.html">Form</a></li>
+
+        </ul>
+    </nav>
+    <body>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/barco.jpg" alt="Trip in boat">
+            </div>
+            <div class="gallery-item">
+                <img src="images/gatoviajero.jpg" alt="pet">
+            </div>
+            <div class="gallery-item">
+                <img src="images/muellecolonia.jpg" alt="Old city">
+            </div>
+            <div class="gallery-item">
+                <img src="images/buenosaires.jpg" alt="Buenos Aires on night">
+            <div class="gallery-item">
+                <img src="images/buenosairesromantico.jpg" alt="">
+
+            <div class="gallery-item"> 
+                <img src="images/barco.jpg" alt="">  
+
+            </div>
+                
+            </div>
+                
+            </div>
+        </div>
+</body>
+</html>
